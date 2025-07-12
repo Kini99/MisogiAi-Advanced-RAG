@@ -1,0 +1,52 @@
+# Core RAG and AI Framework
+langchain>=0.1.0,<0.2.0
+langchain-openai>=0.0.5,<0.1.0
+langchain-community>=0.0.20,<0.1.0
+langchain-text-splitters>=0.0.1,<0.1.0
+
+# Vector Database and Embeddings
+chromadb>=0.4.22,<0.5.0
+sentence-transformers>=2.2.2,<3.0.0
+faiss-cpu>=1.7.4
+
+# Sparse Retrieval (BM25)
+rank-bm25>=0.2.2
+
+# Cross-encoder for Reranking
+sentence-transformers[cross-encoder]>=2.2.2
+
+# Redis Caching
+redis>=5.0.1
+
+# Document Processing
+pypdf>=3.17.4
+python-docx>=1.1.0
+markdown>=3.5.2
+beautifulsoup4>=4.12.2
+
+# Web Framework
+fastapi>=0.104.1,<0.105.0
+uvicorn[standard]>=0.24.0,<0.25.0
+python-multipart>=0.0.6,<0.1.0
+
+# Data Processing
+pandas>=2.1.4
+numpy>=1.24.3
+
+# HTTP Client for APIs
+httpx>=0.25.2
+aiohttp>=3.9.1
+
+# Environment and Configuration
+python-dotenv>=1.0.0
+pydantic>=2.5.0,<3.0.0
+pydantic-settings>=2.1.0
+
+# Testing
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+
+# Development
+black>=23.11.0
+isort>=5.12.0
+flake8>=6.1.0 
